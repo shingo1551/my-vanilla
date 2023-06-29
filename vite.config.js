@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
@@ -14,10 +14,11 @@ export default defineConfig({
         abc: resolve(__dirname, 'abc.html'),
       },
       output: {
-        assetFileNames: "assets/[name][extname]",
-        chunkFileNames: "assets/[name].js", 
-        entryFileNames: "assets/[name].js",
+        assetFileNames: 'assets/[name][extname]',
+        chunkFileNames: 'assets/[name].js',
+        entryFileNames: 'assets/[name].js',
       },
     },
   },
+  test: {},
 });
